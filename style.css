@@ -1,0 +1,141 @@
+/* *
+{
+    outline: 2px solid red;
+} */
+
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+
+h2
+{
+    padding-top: 7vh;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.lista1 > li 
+{
+    float: left;
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(95, 218, 95);
+    color: purple;
+    font-weight: bolder;
+    text-align: center;
+    border: 5px rgb(155, 15, 155) dashed;
+    margin-right: 1em;
+    padding-top: 10px;
+}
+
+.lista2 
+{
+    text-align: center;
+}
+
+.lista2 > li
+{
+    background-color: white;
+    display: inline;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px;
+    margin-left: 2vh;
+}
+
+.lista2 > li:hover
+{
+    background-color: lightgray;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lista3
+{
+    border: 1px solid black;
+    width: 10vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista3 > li
+{
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 1vh;
+    width: 10vw;
+    height: 2.5vh;
+    padding-top: 5px;
+    margin-top: 1vh;
+}
+
+.lista4
+{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.lista4 > li
+{
+    display: inline-block;
+    background-color: white;
+    color: rgb(25, 105, 197);
+    padding: 10px;
+    margin-left: 10px;
+    width: 8vw;
+}
+
+.azul
+{
+    background-color: rgb(25, 105, 197) !important;
+    color: white !important;
+}
+
+.lista5
+{
+    display: inline-flex;
+}
+
+.lista5 > li
+{
+    padding: 20px;
+}
+
+.lista5 > li > img
+{
+    position: relative;
+    width: 23px;
+    top: 5px;
+}
+
+.lista6 
+{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.lista6 > li
+{
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    padding: 10px;
+}
+
+.lista6 > li > img
+{
+    width: 60px;
+}
